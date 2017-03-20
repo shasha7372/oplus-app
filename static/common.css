@@ -1,0 +1,97 @@
+body{
+}
+/*水平居左*/
+.ta-l{
+  text-align:left;
+}
+/*水平居中*/
+.ta-c {
+  text-align: center;
+}
+
+/*图标系列*/
+@font-face {
+  font-family: 'iconfont';  /* project id 246071 */
+  src: url('//at.alicdn.com/t/font_vftcf5bxmjzwipb9.eot');
+  src: url('//at.alicdn.com/t/font_vftcf5bxmjzwipb9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_vftcf5bxmjzwipb9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_vftcf5bxmjzwipb9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_vftcf5bxmjzwipb9.svg#iconfont') format('svg');
+}
+
+.icon-tabbar,.icon-account,.icon-password,.icon-usename,.icon-pact,.icon-invest,.icon-recruit,.icon-video{
+  font-family:"iconfont";
+  font-size:30px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color:#d9d9d9;
+}
+.icon-video{
+  color: #fff;
+  font-size: 24px;
+  float:left;
+  margin-right: 5px;
+  display: inline-block;
+}
+/*视频直播*/
+.icon-video-live:before{
+  content: "\e604";
+}
+/*视频预约*/
+.icon-video-order:before{
+  content: "\e629";
+}
+/*视频回放*/
+.icon-video-back:before{
+  content: "\e64a";
+}
+
+/*底部选项卡*/
+.icon-tabbar{
+  display: block;
+}
+.icon-tabbar:hover,.mint-tabbar > .mint-tab-item.is-selected .mint-tab-item-label .icon-tabbar{
+  color:#32608a;
+}
+/*登录-用户名图标*/
+.icon-account,.icon-account:hover{
+  font-size: 24px;
+  color:#ffffff;
+  font-weight: normal;
+}
+/*登录-密码图标*/
+.icon-password,.icon-password:hover,.icon-usename,.icon-usename:hover,.icon-recruit,.icon-recruit:hover,.icon-pact,.icon-pact:hover,.icon-invest,.icon-invest:hover{
+  font-size: 24px;
+  color:#a9acb1;
+  font-weight: normal;
+}
+◆
+.icon-recruit,.icon-recruit:hover,.icon-pact,.icon-pact:hover,.icon-invest,.icon-invest:hover{
+  font-size: 28px;
+}
+.icon-recruit:hover,.icon-pact:hover,.icon-invest:hover{
+  color:#32608a;
+}
+
+
+/*数据表格*/
+.table-list tr th,.table-list tr td{
+  padding:10px 0px;
+}
+.table-list tr:nth-child(even){
+  background:#f8f8f8;
+}
+.table-list tr:hover{
+  background:#138CDD;
+  color:#fff;
+}
+/*标语*/
+.slogan {
+  background: #32608a;
+  padding: 30px 0px 10px 0px;
+  color:#fff;
+  font-size: 18px;
+}
+
